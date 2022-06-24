@@ -14,16 +14,16 @@ def main(a,b,c):
         string: string with the result
     """
     if a>0 and b>0 and c>0:
-        s="musbat sonlar ko'p"
+        s="there are a lot of positive numbers"
 
     elif (a>0 and b>0 and c<0) or (a>0 and b<0 and c>0) or (a<0 and b>0 and c>0):
-        s="musbat sonlar ko'p"
+        s="there are a lot of positive numbers"
 
     elif (a>0 and b<0 and c<0) or (a<0 and b>0 and c<0) or (a<0 and b<0 and c>0):
-        s="manfiy sonlar ko'p"
+        s="there are a lot of negative numbers"
 
     else :
-        s="manfiy sonlar ko'p"
+        s="there are a lot of negative numbers"
     
     return s
 
