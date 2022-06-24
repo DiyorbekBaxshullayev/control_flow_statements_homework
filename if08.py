@@ -11,4 +11,22 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    s=""
+
+    if (a%10)%2==1:
+        s="two-digit odd number"
+
+    elif (a%10)%2==0:
+        s="two-digit even number"
+
+    elif (a%100)%2==1:
+        s="three-digit odd number"
+
+    elif (a%100)%2==0:
+        s="three-digit even number"
+
+    
+    
+    return s
+
+print(main(3))
