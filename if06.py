@@ -13,4 +13,18 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    if a>0 and b>0 and c>0:
+        s="musbat sonlar ko'p"
+
+    elif (a>0 and b>0 and c<0) or (a>0 and b<0 and c>0) or (a<0 and b>0 and c>0):
+        s="musbat sonlar ko'p"
+
+    elif (a>0 and b<0 and c<0) or (a<0 and b>0 and c<0) or (a<0 and b<0 and c>0):
+        s="manfiy sonlar ko'p"
+
+    else :
+        s="manfiy sonlar ko'p"
+    
+    return s
+
+print(main(-5,-5,-2))
