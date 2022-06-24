@@ -11,11 +11,11 @@ def main(a):
     if a>0:
         s=a+1
 
-    if a==0:
-        s=10
+    if a<0:
+        s=a-2
 
     else:
-        s=a-2
+        s=10
     
     return s
 
